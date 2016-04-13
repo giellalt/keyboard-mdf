@@ -1,0 +1,52 @@
+internalName: moksha_mordvin 
+
+displayNames:
+  mdf: Мокша
+  en: Moksha Mordvin
+  fi: Mokša
+  nb: Moksjamordvinsk
+  ru: Мокшанский язык
+
+locale: mdf
+ 
+modes:
+  default: |
+    й ц у к е н г ш щ з х ъ
+    ф ы в а п р о л д ж э ё
+    я ч с м и т ь б ю
+  shift: |
+    Й Ц У К Е Н Г Ш Щ З Х Ъ
+    Ф Ы В А П Р О Л Д Ж Э Ё
+    Я Ч С М И Т Ь Б Ю
+
+longpress:
+  И: І
+  Л: Ԕ
+  Н: Ҥ
+  Р: Ԗ
+  Ф: Ѳ
+  Я: Ԙ
+
+  и: і
+  л: ԕ
+  н: ҥ
+  р: ԗ
+  ф: ѳ
+  я: ԙ
+
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]
+
+strings:
+  space: Ётка
+  return: Од рядс
+#  space: кэ̄сск
+#  return: рядтвоайхэсс
