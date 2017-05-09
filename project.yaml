@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.mdf
     bundleName: *bundleName
     icon: images/mdf-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/mdf-icon.png
+    codeSignId: "my-test-installer"
