@@ -1,0 +1,70 @@
+### Generated from se-t-k0-osx.xml on 2017-05-08 at 07:51.
+internalName: mdf_keyboards
+
+displayNames:
+  mdf: Мокша
+  en: Moksha Mordvin
+  fi: Mokša
+  nb: Moksjamordvinsk
+  ru: Мокшанский язык
+
+locale: mdf
+
+supportedTargets: [ios, android]
+
+modes:
+# mobile layouts:
+  mobile-default: |
+    й ц у к е н г ш щ з х ъ
+    ф ы в а п р о л д ж э ё
+    я ч с м и т ь б ю
+  mobile-shift: |
+    Й Ц У К Е Н Г Ш Щ З Х Ъ
+    Ф Ы В А П Р О Л Д Ж Э Ё
+    Я Ч С М И Т Ь Б Ю
+
+
+# mobile keyboards properties:
+longpress:
+  А: Ӓ
+  Е: Є Ѣ
+  З: Ѕ
+  И: І
+  Л: Ԕ
+  Н: Ҥ
+  Р: Ԗ
+  Ф: Ѳ
+  Я: Ԙ
+  У: Ў
+  Ч: Џ
+
+  а: ӓ
+  е: є ѣ
+  з: ѕ
+  и: і
+  л: Ԕ
+  н: ҥ
+  р: Ԗ
+  ф: ѳ
+  я: Ԙ
+  у: ў
+  ч: џ
+
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]
+
+strings:
+  space: Ётка
+  return: Од рядс
+#  space: кэ̄сск
+#  return: рядтвоайхэсс
+
+

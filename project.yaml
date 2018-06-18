@@ -1,4 +1,4 @@
-internalName: mdf_keyboard
+internalName: mdf_ru-win
 
 locales:
   en:
@@ -14,7 +14,7 @@ email: feedback@divvun.no
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
-layouts: [mdf]
+layouts: [mdf-mob, mdf-mac, mdf-win]
 
 version: 1.0
 build: 1
@@ -43,4 +43,5 @@ targets:
     appName: *bundleName
     version: 0.1.0
     url: "http://divvun.no"
-    uuid: "replace-with-real-uuid-one-for-each-language"
+    uuid: "DAD4B252-F7A3-4A97-9A9C-81A7A7D5FA47"
+    
