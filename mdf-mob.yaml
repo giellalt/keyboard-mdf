@@ -27,8 +27,9 @@ modes:
 # mobile keyboards properties:
 longpress:
   А: Ӓ
-  Е: Є Ѣ
-  З: Ѕ
+  Э: Є
+  Е: Ѣ
+  Ш: Ѕ
   И: І
   Л: Ԕ
   Н: Ҥ
@@ -36,11 +37,12 @@ longpress:
   Ф: Ѳ
   Я: Ԙ
   У: Ў
-  Ч: Џ
+  Ц: Џ
 
   а: ӓ
-  е: є ѣ
-  з: ѕ
+  э: є
+  е: ѣ
+  ш: ѕ
   и: і
   л: ԕ
   н: ҥ
@@ -48,7 +50,7 @@ longpress:
   ф: ѳ
   я: ԙ
   у: ў
-  ч: џ
+  ц: џ
 
 styles:
   tablet:
