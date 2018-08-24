@@ -1,5 +1,5 @@
 ### Generated from ru-t-k0-osx.xml on 2018-06-18 at 13:07.
-internalName: mdf_ru-win
+internalName: mdf-win
 
 displayNames:
   mdf: Мокша
@@ -13,7 +13,7 @@ supportedTargets: [win, x11, svg]
 targets:
   win:
     locale: mdf-Cyrl
-    languageName: "Эрзянь кель"
+    languageName: "Мокшень кяль"
 
 modes:
   # default
