@@ -27,7 +27,7 @@ targets:
     keyAlias: sami_keyboard
 
   ios: &AppleID
-    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
+    codeSignId: "2K5J2584NX"
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.mdf
     bundleName: *bundleName
@@ -36,12 +36,12 @@ targets:
   osx:
     <<: *AppleID
     icon: images/mdf-keyboard-menu-icon.png
-    version: 0.1.1
+    version: 0.2.0
     resources: doc
 
   win:
     appName: *bundleName
-    version: 0.1.1
+    version: 0.2.0
     url: "http://divvun.no"
     uuid: "DAD4B252-F7A3-4A97-9A9C-81A7A7D5FA47"
     
