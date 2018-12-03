@@ -36,7 +36,7 @@ targets:
   osx:
     <<: *AppleID
     icon: images/mdf-keyboard-menu-icon.png
-    version: 0.2.0
+    version: 0.2.1
     resources: doc
 
   win:
