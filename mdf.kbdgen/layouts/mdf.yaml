@@ -4,8 +4,9 @@ displayNames:
   fi: Mokša
   nb: Moksjamordvinsk
   ru: Мокшанский язык
+
 modes:
-  mobile:
+  android:
     default: |
       й ц у к е н г ш щ з х ъ
       ф ы в а п р о л д ж э ё
@@ -14,6 +15,59 @@ modes:
       Й Ц У К Е Н Г Ш Щ З Х Ъ
       Ф Ы В А П Р О Л Д Ж Э Ё
       Я Ч С М И Т Ь Б Ю
+
+  ios:
+    default: |
+      й ц у к е н г ш щ з х ъ
+      ф ы в а п р о л д ж э ё
+      \s{shift:1.25} \s{spacer:0.25} я ч с м и т ь б ю \s{spacer:0.25} \s{backspace:1.25}
+    shift: |
+      Й Ц У К Е Н Г Ш Щ З Х Ъ
+      Ф Ы В А П Р О Л Д Ж Э Ё
+      \s{shift:1.25} \s{spacer:0.25} Я Ч С М И Т Ь Б Ю \s{spacer:0.25} \s{backspace:1.25}
+    symbols-1: |
+      1 2 3 4 5 6 7 8 9 0
+      © ™ £ € ∞ § | [ ] ≈
+      - / : ; ( ) € & @ "
+      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+    symbols-2: |
+      [ ] { } # % ^ * + =
+      ¡ ® ¥ ¢ ‰ ¶ \ { } ≠
+      _ \ | ~ < > € $ £ •
+      \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+
+  ipad-9in:
+    default: |
+      >                1 2 3 4 5 6 7 8 9 0 - = \s{backspace}
+      \s{spacer:0.5}   й ц у к е н г ш щ з х ъ  \s{spacer:0.5}
+      \s{shift}        ф ы в а п р о л д ж э ё  \s{shift}
+      \s{spacer:0.5}     я ч с м и т ь б ю    \s{return:2.5}
+    shift: |
+      <                ! " № % : , . ; ( ) _ + \s{backspace}
+      \s{spacer:0.5}   Й Ц У К Е Н Г Ш Щ З Х Ъ \s{spacer:0.5}
+      \s{shift}        Ф Ы В А П Р О Л Д Ж Э Ё  \s{shift}
+      \s{spacer:0.5}     Я Ч С М И Т Ь Б Ю    \s{return:2.5}
+    alt: |
+      §                ! @ # $ % ^ & * ( ) – »  \s{backspace}
+      \s{spacer:0.5}   ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө  \s{spacer:0.5}
+      \s{shift}        ѳ ѵ ѷ ӓ © } ° љ … җ є ә    \s{shift}
+      \s{spacer:0.5}   ] ђ ≈ ≠ µ і ™ ~ ≤ ≥ “      \s{return:2.5}
+    alt+shift: |
+      ±                  | " £ € ∞ ¬ ¶ √ ' ` — «  \s{backspace}
+      \s{spacer:0.5}   Ј Џ Ќ ® Ѣ Ҥ Ѓ Ѕ Ў ’ ” Ө  \s{spacer:0.5}
+      \s{shift}        Ѳ Ѵ Ѷ Ӓ © { • Љ … Җ Є Ә    \s{shift}
+      \s{spacer:0.5}   [ Ђ ≈ ≠ µ І ™ ~ < > „      \s{return:2.5}
+    symbols-1: |
+      1                  2 3 4 5 6 7 8 9 0 ` ±  \s{backspace}
+      \s{spacer:0.5}   © ™ £ € ∞ § | ‹ › ≈ ´ ˚  \s{spacer:0.5}
+      \s{shiftSymbols} @ # € & * ( ) ' " ° •    \s{shiftSymbols}
+      \s{spacer:0.5}   < % _ - = / ; : , .      \s{return:2.5}
+    symbols-2: |
+      1                  2 3 4 5 6 7 8 9 0 ` ¿  \s{backspace}
+      \s{spacer:0.5}   ¡ ® ¥ ¢ ‰ ¶ \ « » ≠ ´ ^  \s{spacer:0.5}
+      \s{shiftSymbols} $ £ ¥ ^ [ ] { } — ° …    \s{shiftSymbols}
+      \s{spacer:0.5}   > § | ~ ≠ \ ‚ „ ! ?      \s{return:2.5}
+
   mac:
     default: |
       > 1 2 3 4 5 6 7 8 9 0 - =
@@ -30,11 +84,6 @@ modes:
       Й Ц У К Е Н Г Ш Щ З Х Ъ
       Ф Ы В А П Р О Л Д Ж Э Ё
       ] Я Ч С М И Т Ь Б Ю /
-    cmd+alt: |
-      § 1 2 3 4 5 6 7 8 9 0 - =
-      q w e r t y u i o p [ ]
-      a s d f g h j k l ; ' \
-      ` z x c v b n m , . /
     alt: |
       § ! @ # $ % ^ & * ( ) – »
       ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө
@@ -45,6 +94,11 @@ modes:
       Ј Џ Ќ ® Ѣ Ҥ Ѓ Ѕ Ў ’ ” Ө
       Ѳ Ѵ Ѷ Ӓ © Ԗ { Ԕ … Җ Є Ә
       [ Ԙ ≈ ≠ µ І ™ ~ < > „
+    caps+alt: |
+      § ! @ # $ % ^ & * ( ) – »
+      ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө
+      ѳ ѵ ѷ ӓ © ԗ } ԕ … җ є ә
+      ] ԙ ≈ ≠ µ і ™ ~ ≤ ≥ “
     ctrl: |
       0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
       \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
@@ -60,6 +114,11 @@ modes:
       Q W E R T Y U I O P { }
       A S D F G H J K L : " |
       ~ Z X C V B N M < > ?
+    cmd+alt: |
+      § 1 2 3 4 5 6 7 8 9 0 - =
+      q w e r t y u i o p [ ]
+      a s d f g h j k l ; ' \
+      ` z x c v b n m , . /
   win:
     default: |
       ё 1 2 3 4 5 6 7 8 9 0 - =
@@ -76,6 +135,11 @@ modes:
       Й Ц У К Е Н Г Ш Щ З Х Ъ
       Ф Ы В А П Р О Л Д Ж Э \
       \ Я Ч С М И Т Ь Б Ю .
+    caps: |
+      ё 1 2 3 4 5 6 7 8 9 0 - =
+      й ц у к е н г ш щ з х ъ
+      ф ы в а п р о л д ж э \
+      \ я ч с м и т ь б ю .
     alt: |
       § ! @ # $ % ^ & * ( ) – »
       ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө
@@ -91,6 +155,39 @@ modes:
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
       \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
+  chrome:
+    default: |
+      ё 1 2 3 4 5 6 7 8 9 0 - =
+      й ц у к е н г ш щ з х ъ
+      ф ы в а п р о л д ж э \
+      \ я ч с м и т ь б ю .
+    shift: |
+      Ё ! " № ; % : ? * ( ) _ +
+      Й Ц У К Е Н Г Ш Щ З Х Ъ
+      Ф Ы В А П Р О Л Д Ж Э /
+      / Я Ч С М И Т Ь Б Ю ,
+    caps: |
+      Ё 1 2 3 4 5 6 7 8 9 0 - =
+      Й Ц У К Е Н Г Ш Щ З Х Ъ
+      Ф Ы В А П Р О Л Д Ж Э \
+      \ Я Ч С М И Т Ь Б Ю .
+    caps: |
+      ё 1 2 3 4 5 6 7 8 9 0 - =
+      й ц у к е н г ш щ з х ъ
+      ф ы в а п р о л д ж э \
+      \ я ч с м и т ь б ю .
+    alt: |
+      § ! @ # $ % ^ & * ( ) – »
+      ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө
+      ѳ ѵ ѷ ӓ © ԗ } ԕ … җ є ә
+      ] ԙ ≈ ≠ µ і ™ ~ ≤ ≥ “
+    alt+shift: |
+      ± | " £ € ∞ ¬ ¶ √ ' ` — «
+      Ј Џ Ќ ® Ѣ Ҥ Ѓ Ѕ Ў ’ ” Ө
+      Ѳ Ѵ Ѷ Ӓ © Ԗ { Ԕ … Җ Є Ә
+      [ Ԙ ≈ ≠ µ І ™ ~ < > „
+
 longpress:
   А: Ӓ
   Э: Є
@@ -106,6 +203,7 @@ longpress:
   Я: Ԙ
   У: Ў Ѵ Ѷ
   Ц: Џ
+
   а: ӓ
   э: є
   е: ѣ ә
@@ -120,15 +218,31 @@ longpress:
   я: ԙ
   у: ў ѵ ѷ
   ц: џ
+
 strings:
   space: Ётка
-  return: Од рядс
+  return: "Од\u00ADрядс"
+space:
+  mac:
+    caps: '\u{A0}'
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+
+
 targets:
   ios:
-    legacyName: mdf-mobile
+    legacyName: mdf_keyboards
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
+    spellerPath: mdf.bhfst
   android:
-    legacyName: mdf-mobile
+    legacyName: mdf_keyboards
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
+    spellerPath: mdf.bhfst
   win:
     locale: mdf-Cyrl
+    id: mdfwi
     languageName: Мокшень кяль
-    legacyName: mdf-win
+  chrome:
+    locale: ru
