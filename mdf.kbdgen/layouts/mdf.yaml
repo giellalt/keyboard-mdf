@@ -251,7 +251,7 @@ longpress:
 
 strings:
   space: Ётка
-  return: "Од\u00ADрядс"
+  return: "од рядс"
 space:
   mac:
     caps: '\u{A0}'
