@@ -264,12 +264,12 @@ space:
 targets:
   ios:
     legacyName: mdf_keyboards
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
-    spellerPath: mdf.bhfst
+#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
+#    spellerPath: mdf.bhfst
   android:
     legacyName: mdf_keyboards
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
-    spellerPath: mdf.bhfst
+#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
+#    spellerPath: mdf.bhfst
   win:
     locale: mdf-Cyrl
     id: mdfwi
