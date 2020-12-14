@@ -262,12 +262,10 @@ space:
 
 
 targets:
-  ios:
-    legacyName: mdf_keyboards
+#   ios:
 #    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
 #    spellerPath: mdf.bhfst
-  android:
-    legacyName: mdf_keyboards
+#   android:
 #    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
 #    spellerPath: mdf.bhfst
   win:
