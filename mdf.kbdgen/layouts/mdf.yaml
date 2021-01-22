@@ -35,7 +35,7 @@ modes:
     symbols-2: |
       [ ] { } # % ^ * + =
       ¡ ® ¥ ¢ ‰ ¶ \ { } ≠
-      _ \ | ~ < > € $ £ •
+      _ \ | ~ « » € $ £ •
       \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
 
   ipad-9in:
@@ -248,6 +248,8 @@ longpress:
   я: ԙ
   у: ў ѵ ѷ
   ц: џ
+  »: >
+  «: <
 
 strings:
   space: Ётка
