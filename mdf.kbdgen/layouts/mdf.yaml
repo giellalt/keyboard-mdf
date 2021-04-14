@@ -264,12 +264,12 @@ space:
 
 
 targets:
-#   ios:
-#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
-#    spellerPath: mdf.bhfst
-#   android:
-#    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
-#    spellerPath: mdf.bhfst
+  ios:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
+    spellerPath: mdf.bhfst
+  android:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-mdf?channel=nightly&platform=mobile
+    spellerPath: mdf.bhfst
   win:
     locale: mdf-Cyrl
     id: mdfwi
